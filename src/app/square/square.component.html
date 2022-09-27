@@ -1,0 +1,3 @@
+<button [disabled]="gameEnd" *ngIf="!value">{{ value }}</button>
+<button disabled class="X" *ngIf="value == 'X'">{{ value }}</button>
+<button disabled class="O" *ngIf="value == 'O'">{{ value }}</button>
